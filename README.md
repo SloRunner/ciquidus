@@ -1,13 +1,12 @@
-Ciquidus Alpha - 1.7.2
+Equidus Alpha - 1.0.0
 ================
 
-The Chaincoin block explorer.
 
-This project is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer) so massive thanks go out to Luke Williams for his code! Thank you!!!
+This project is a fork of [Ciquidus Alpha](https://github.com/suprnurd/ciquidus) which is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer) so massive thanks go out to Luke Williams and Alan Rudolf for their code! Thank you!!!
 
 ### See it in action
 
-*  [explorer.chaincoin.org](https://explorer.chaincoin.org)
+*  [explorer.monitorit4.me](https://explorer.monitorit4.me/)
 
 
 ### Requires
@@ -28,7 +27,7 @@ Create databse:
 
 Create user with read/write access:
 
-    > db.createUser( { user: "ciquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "equidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 
 *note: If you're using mongo shell 2.4.x, use the following to create your user:
 
@@ -36,7 +35,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/suprnurd/ciquidus explorer
+    git clone https://github.com/SloRunner/equidus explorer
 
 ### Install node modules
 
@@ -98,14 +97,13 @@ forcesync.sh and forcesynclatest.sh (located in scripts/) can be used to force t
 
 ### Wallet
 
-The wallet connected to Ciquidus must be running with atleast the following flags:
+The wallet connected to Equidus must be running with atleast the following flags:
 
     -daemon -txindex
 
 ### Donate
     
-    CHC: CLkWg5YSLod772uLzsFRxHgHiWVGAJSezm
-    BTC: 1J8Chi5teDJrvBtSuQhioNCHfTNBCcCrPx
+    Nothing here yet
 
 ### Known Issues
 
@@ -135,6 +133,7 @@ Where [SIZE] is an integer higher than the default.
 
 ### License
 
+Copyright (c) 2018, Aleš Kalan
 Copyright (c) 2017, The Chaincoin Community  
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams  
