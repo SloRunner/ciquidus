@@ -102,27 +102,27 @@ html
             if settings.heavy == true
               li#reward
                 a.navbar-link(href='/reward')
-                  span.fa.fa-star
+                  span.fas.fa-star
                   span.menu-text #{settings.locale.menu_reward}
             if settings.display.movement == true
               li#movement
                 a.navbar-link.loading(href='/movement')
-                  span.fa.fa-money
+                  span.far.fa-money-bill-alt
                   span.menu-text #{settings.locale.menu_movement}
             if settings.display.network == true
               li#network
                 a.navbar-link(href='/network')
-                  span.fa.fa-share-alt
+                  span.fas.fa-share-alt
                   span.menu-text #{settings.locale.menu_network}
             if settings.display.richlist == true
               li#richlist
                 a.navbar-link(href='/richlist')
-                  span.fa.fa-btc
+                  span.fab.fa-btc
                   span.menu-text #{settings.locale.menu_richlist}
             if settings.display.markets == true
               li#markets
                 a.navbar-link.loading(href='/markets/#{settings.markets.default}')
-                  span.fa.fa-line-chart
+                  span.fas.fa-chart-line
                   span.menu-text #{settings.locale.menu_markets}
             if settings.display.api == true
               li#info
@@ -149,7 +149,7 @@ html
                 strong #{settings.locale.network} (H/s)
             .panel-body
               #hashratepanel
-                span.glyphicon.fa.fa-gears
+                span.glyphicon.fas.fa-cogs
                 if settings.index.difficulty == 'Hybrid'
                   label#hashrate -
                   <br>
@@ -162,7 +162,7 @@ html
               strong #{settings.locale.difficulty}
             .panel-body
               #difficultypanel
-                span.glyphicon.fa.fa-sliders
+                span.glyphicon.fas.fa-sliders-h
                 if settings.index.difficulty == 'Hybrid'
                   label#difficulty -
                   <br>
