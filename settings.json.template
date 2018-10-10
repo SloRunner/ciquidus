@@ -69,6 +69,7 @@
     "bitcointalk": false,
     "website": false,
     "slack": false,
+    "discord": false,
     "github": false,
     "search": true,
     "movement": true,
@@ -127,6 +128,7 @@
   "github": "yourgithubusername/yourgithubrepo",
   "slack": "yourfullslackinviteurl",
   "website": "yourfullwebsiteurl",
+  "discord": "invitecode",
 
   //genesis
   "genesis_tx": "fa6ef9872494fa9662cf0fecf8c0135a6932e76d7a8764e1155207f3205c7c88",

@@ -119,6 +119,7 @@ app.set('facebook', settings.facebook);
 app.set('googleplus', settings.googleplus);
 app.set('bitcointalk', settings.bitcointalk);
 app.set('slack', settings.slack);
+app.set('discord', settings.discord);
 app.set('github', settings.github);
 app.set('website', settings.website);
 app.set('genesis_block', settings.genesis_block);
