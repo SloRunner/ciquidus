@@ -1,6 +1,8 @@
 Equidus Alpha - 1.0.0
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SloRunner/equidus.svg)](https://greenkeeper.io/)
+
 
 This project is a fork of [Ciquidus Alpha](https://github.com/suprnurd/ciquidus) which is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer) so massive thanks go out to Luke Williams and Alan Rudolf for their code! Thank you!!!
 
