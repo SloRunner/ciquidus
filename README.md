@@ -93,8 +93,6 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
     */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
     */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
 
-forcesync.sh and forcesynclatest.sh (located in scripts/) can be used to force the explorer to sync at the specified block heights
-
 ### Wallet
 
 The wallet connected to Equidus must be running with atleast the following flags:
@@ -102,7 +100,7 @@ The wallet connected to Equidus must be running with atleast the following flags
     -daemon -txindex
 
 ### Donate
-    
+
     Nothing here yet
 
 ### Known Issues
