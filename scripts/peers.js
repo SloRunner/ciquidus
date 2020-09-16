@@ -38,14 +38,16 @@ mongoose.connect(dbString, function(err) {
             loop.next();
           } else {
             request({uri: 'http://extreme-ip-lookup.com/json/' + address, json: true}, function (error, response, geo) {
-              db.create_peer({
-                address: address,
-                protocol: body[i].version,
-                version: body[i].subver.replace('/', '').replace('/', ''),
-                country: geo.country
-              }, function(){
-                loop.next();
-              });
+              if (!body[i].version || body[i].version == '') {
+                db.create_peer({
+                  address: address,
+                  protocol: body[i].version,
+                  version: body[i].subver.replace('/', '').replace('/', ''),
+                  country: geo.country
+                }, function(){
+                  loop.next();
+                });  
+              }
             });
           }
         });
@@ -55,4 +57,3 @@ mongoose.connect(dbString, function(err) {
     });
   }
 });
-
